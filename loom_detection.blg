@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: loom_detection.aux
+The style file: vancouver-elife.bst
+Database file #1: references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 51 entries,
+            3492 wiz_defined-function locations,
+            1028 strings with 16813 characters,
+and the built_in function-call counts, 138163 in all, are:
+= -- 17491
+> -- 1525
+< -- 20
++ -- 770
+- -- 496
+* -- 12425
+:= -- 15363
+add.period$ -- 154
+call.type$ -- 51
+change.case$ -- 463
+chr.to.int$ -- 51
+cite$ -- 51
+duplicate$ -- 11679
+empty$ -- 12364
+format.name$ -- 626
+if$ -- 31386
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 639
+newline$ -- 262
+num.names$ -- 153
+pop$ -- 1223
+preamble$ -- 1
+purify$ -- 457
+quote$ -- 0
+skip$ -- 1062
+stack$ -- 0
+substring$ -- 26179
+swap$ -- 1500
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 459
+warning$ -- 0
+while$ -- 638
+width$ -- 0
+write$ -- 670

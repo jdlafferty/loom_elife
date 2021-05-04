@@ -1,0 +1,18 @@
+\BOOKMARK [1][-]{section*.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section*.2}{Results}{}% 2
+\BOOKMARK [2][-]{subsection*.3}{A set of artificial visual stimuli}{section*.2}% 3
+\BOOKMARK [2][-]{subsection*.4}{An anatomically-constrained mathematical model for inferring loom}{section*.2}% 4
+\BOOKMARK [2][-]{subsection*.5}{Two distinct solutions to the loom-inference problem}{section*.2}% 5
+\BOOKMARK [2][-]{subsection*.6}{The outward and inward filters are selective to hit signals with different eccentricities}{section*.2}% 6
+\BOOKMARK [2][-]{subsection*.7}{The outward solutions have sparse codings while the inward ones have dense codings}{section*.2}% 7
+\BOOKMARK [2][-]{subsection*.8}{Large populations of units improve performance and favor outward filters over inward ones}{section*.2}% 8
+\BOOKMARK [2][-]{subsection*.9}{Replications of biological data}{section*.2}% 9
+\BOOKMARK [1][-]{section*.10}{Discussion}{}% 10
+\BOOKMARK [1][-]{section*.11}{Methods and Materials}{}% 11
+\BOOKMARK [2][-]{subsection*.12}{Code availability}{section*.11}% 12
+\BOOKMARK [2][-]{subsection*.13}{Coordinate system and stimuli}{section*.11}% 13
+\BOOKMARK [2][-]{subsection*.14}{Models}{section*.11}% 14
+\BOOKMARK [2][-]{subsection*.15}{Training and testing}{section*.11}% 15
+\BOOKMARK [2][-]{subsection*.16}{Clustering the solutions}{section*.11}% 16
+\BOOKMARK [2][-]{subsection*.17}{Statistics}{section*.11}% 17
+\BOOKMARK [1][-]{section*.18}{Acknowledgments}{}% 18

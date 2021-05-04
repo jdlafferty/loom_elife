@@ -1,0 +1,85 @@
+% !TEX root = loom_detection.tex
+
+\subsection{Stimuli}
+Imagine that the a fly sits on a horizontal plane, and its head points towards a specific direction. The fly head is assumed to be a point particle and have no volume. A three dimensional right-handed frame of reference $\Sigma$ is set up and attached to the fly head (origin): the $z$ axis pointing outwardly from the fly head, perpendicular to the line that connects the two eyes, and parallel to horizontal plane; the $y$ axis pointing toward the right eye, parallel to the horizontal plane; the $x$ axis pointing upward and perpendicular to the horizontal plane. A perfect spherical ball with radius $R=1$ is moving in this frame of reference, and the coordinates of its center at time $t$ are denoted as $\mathbf{r}(t) = (x(t),y(t),z(t))$. Thus, the distance between the ball center and the fly head is $D(t) = |\mathbf{r}(t)| = \sqrt{x^{2}(t)+y^{2}(t)+z^{2}(t)}$.
+
+It has been suggested that the receptive field of a LPLC2 neuron is roughly 60-degree wide \citep{klapoetke2017ultra}. Thus, we here model one LPLC2 unit as a cone with its vertex at the origin of the frame of reference, and the opening angle of the cone is 30 degrees. The orientation of the axis of the cone can be characterized by two of the Eurler angles $\psi$ (around $z$) and $\theta$ (around $x^{'}$) with respect to the frame of reference. For an LPLC2 unit $m$ ($m=1, 2, \dots, M$) a local frame of reference $\Sigma_{m}$ is set up: the $z_{m}$ axis overlaps with the axis of the cone and its positive direction points toward the base of the cone, the $x_{m}$ axis lies in the plane spanned by the $x$ axis of $\Sigma$ and the $z_{m}$ axis of $\Sigma_{m}$ and has an acute angle with the positive direction of $x$ axis of $\Sigma$, and the $y_{m}$ axis should be chosen such that $\Sigma_{m}$ is right-handed. For each LPLC2 unit, its cardinal directions are defined as: upward (positive direction of $x_{m}$), downward (negative direction of $x_{m}$), leftward (negative direction of $y_{m}$ and rightward (positive direction of $y_{m}$. At the same time, the visible outline of the ball also spans a cone that originates from the origin, and the opening angle of the ball cone is a function of time and can be denoted as $\theta_{\text{b}}(t)$:
+\begin{align*}
+\theta_{\text{b}}(t) = \arcsin{\frac{R}{D(t)}}.
+\end{align*}
+The overlapping of the unit cone and ball cone indicates how much the ball occupies the receptive field of the LPLC2 unit.
+
+There are multiple layers in the fly visual system, and here we only focus on two coarse grained stages: the estimation of flow fields from optical intensities by motion detection neurons T5, and integration of the flow fields by LPLC2 neurons. In simulations, the base of the LPLC2 cone is represented by a $N$ by $N$ matrix, and each element in this matrix indicates a specific direction in the angular space within the receptive field of an LPLC2 unit. If this element falls within the ball cone, then the value of this element is 1; otherwise it is 0. Thus, at each time $t$, this matrix is an optical intensity signal and can be represented by $I(t)$. In general, $N$ should be big enough to provide good angular resolutions. Then, $K^{2}$ ($K<N$) motion detectors are evenly distributed within the LPLC2 cone, with each occupying a $5^{\circ}$ angle in the angular space, consistent with sizes of the receptive fields of motion detectors T4/T5 (\textcolor{red}{good reference needed}). Since the receptive field of an LPLC2 neuron is roughly $60^{\circ}$, the value of $K$ is set to be 12. Each motion detector is assumed to be a Hassenstein Reichardt Correlator (HRC) and calculates local flow fields from $I(t)$. In experiment, four types of T5 neurons have been found, and each type is sensitive to one of the cardinal directions: down, up, left, right (\textcolor{red}{good reference needed}). Thus, there are four local flow fields, $U_{-}(t)$ (downward, LP4), $U_{+}(t)$ (upward, LP3), $V_{+}(t)$ (rightward, LP2) and $V_{-}(t)$ (leftward, LP1), each of which is a $K$ by $K$ matrix. These four local flow fields are all nonnegative and serve the only inputs to our model.
+
+The trajectories $\mathbf{r}(t)$ of the ball is simulated in the frame of reference $\Sigma$ with a time resolution of 10 ms. For hit, miss and retreat cases, the trajectories of the ball are always straight lines, and the velocities of the ball is randomly sampled from range $[2R,10R]$ and the farthest distance of the ball to the fly is $5R$ (All figures except Fig. (\ref{figsupp:sf1_outward_prevail}C)) or $10R$ (Fig. (\ref{figsupp:sf1_outward_prevail}C)) (\textcolor{red}{Supplementary figures are not referenced correctly.}). Here $R$ is the radius of the ball and always set to be 1. For each rotation case, there are 100 balls randomly scattered around the fly, and the trajectories of the balls are segments of circles around a certain axis. The rotation speed is set to be $200^{\circ}$ per second (\textcolor{red}{good reference needed}).
+
+The HRC used here has two inputs separated by $5^{\circ}$, and the temporal profiles for both are delta functions. One of the delta function peaks at the current time $t$, and the other delta function has a delay of $\Delta$ and peaks at $t-\Delta$. We choose $\Delta$ to be 30 ms (\textcolor{red}{good reference needed}).
+
+To get the signals that are received by a specific LPLC2 unit $m$, the coordinates of the ball are rotated to the local frame of reference $\Sigma_{m}$. 
+
+\subsection{Models}
+As shown in Fig. (\ref{fig:model}), there are two sets of nonnegative filters, excitatory and inhibitory, and each set has four branches that convolve corresponding flow fields: $W^{\text{e}}_{U_{-}}$, $W^{\text{e}}_{U_{+}}$, $W^{\text{e}}_{V_{+}}$, $W^{\text{e}}_{V_{-}}$, $W^{\text{i}}_{U_{-}}$, $W^{\text{i}}_{U_{+}}$, $W^{\text{i}}_{V_{+}}$, $W^{\text{i}}_{V_{-}}$,where the superscripts, e and i, indicate excitatory and inhibitory, respectively. Each filter is a $12$ by $12$ matrix. We don't assume specific structures of the filters, but impose 90-degree rotation symmetry and mirror symmetry to reduce the dimensionality of the model. For example, $W^{\text{e}}_{U_{+}}$ is the same as $W^{\text{e}}_{V_{+}}$ rotated $90^{\circ}$ counter-clockwise, and the upper half of $W^{\text{e}}_{V_{+}}$ is a mirror image of the lower half of $W^{\text{e}}_{V_{+}}$. Thus, there are total 144 parameters in the two sets of filters. In fact the actual number of free parameters is smaller than this, since the elements in the corner of the filter do not contribute to the training since the receptive field of a LPLC2 unit is a circle. This leaves us 112 trainable parameters in the filters.
+ 
+The four excitatory filters correspond to the four dendritic structures of a real LPLC2 neuron in the LP, while the four inhibitory filters correspond to four different lobula plate intrinsic interneurons. For example, the inhibitory branch labelled as LP4 integrate motion signals in layer 4 of LP, and its inhibitory output should be subtracted from the Excitatory branch LP3, just as LPi4-3 \citep{klapoetke2017ultra}, although we don't distinguish where the inhibitory effects are subtracted in the model. 
+
+The responses of the inhibitory units are:
+\begin{equation}
+r^{\text{i}}_{S}(t) = \relu \left[ \sum_{jk}(W^{\text{i}}_{S})_{jk}S(t)_{jk}+b^{\text{i}} \right],\ \ S(t) = U_{-}(t), U_{+}(t), V_{+}(t), V_{-}(t),
+\label{eq:inhibitory}
+\end{equation}
+where $\relu(\cdot) = \max(\cdot,0)$ is the rectified linear activation function.
+
+The response of the a single LPLC2 unit $m$ is:
+\begin{equation}
+r_{m}(t) = \relu \left[ \sum_{S}\sum_{jk}(W^{\text{e}}_{S})_{jk}S(t)_{jk}-\sum_{S}r^{\text{i}}_{S}(t)+b^{\text{e}} \right].
+\label{eq:LPLC2_response}
+\end{equation}
+
+The inferred probability of hit at time $t$ is:
+\begin{equation}
+P_{\text{hit}}(t) = \sigmoid \left( \sum_{m}r_{m}(t)+b \right)
+\end{equation}
+
+Since we are adding three intercepts $b^{\text{i}}$,$b^{\text{e}}$, and $b$, there are 115 parameters to train in this model.
+
+A second model we tested is a modification of Eq. (\ref{eq:LPLC2_response}), where the inhibitory units are deleted and the filters are allowed to have both positive and negative values, i.e.,
+\begin{equation}
+r_{m}^{'}(t) = \relu \left[ \sum_{S}\sum_{jk}(W^{'}_{S})_{jk}S(t)_{jk}+b^{'} \right].
+\label{eq:LPLC2_response_2}
+\end{equation}
+
+
+% We consider two biologically plausible models for the \textit{Drosophila}'s visual system. The models differ in their structure, and we will perform a systematic computational evaluation of their properties. In the following
+% we use $\mc{R}$ to denote the set of regions, which corresponds to the receptive field of one LPLC2 unit and $\vert \mc{O} \vert$ to denote the number of ommatidia in a region. We use $f_{r}(t) \in \mb{R}^{|\mc{O}| \times 4}$ to denote the local flow field calculated by motion detectors at time $t$ in a particular region $r \in \mc{R}$.
+
+% \subsubsection{Model 1}
+
+% The first model has a single filter, shared across all regions. We denote this filter as $w \in \mb{R}^{|\mc{O}| \times 4}$. Let $f_{r} \in \mb{R}^{|\mc{O}| \times 4}$ denote the local two-hot optical flow perceived by a particular region $r \in \mc{R}$. The response in region $r$ is $\relu \left( \trace(w^T f_{r}) + a_0\right)$, where $\trace(A) = \sum_i A_{ii}$ denotes the trace of a square matrix, and $\relu(\cdot) = \max(\cdot,0)$ is the rectified linear activation function.  The response is pooled across the regions, after which a nonlinearity is applied, with overall response
+
+% \begin{equation}\label{eq:model_1}
+% y = \sigmoid \left(\sum_{r \in \mc{R}} \left\{ \relu \left( \trace(w^T f_{r}) + a_0\right) \right\} + a_1 \right),
+% \end{equation}
+% where $a_0, a_1 \in \mathbb{R}$.
+
+% For a centered looming object, since there are positive weights in the same half in each of the cardinal directions, $\trace(w^T f_r)$ will be a big positive number. For a retreating object, since there are negative weights in the same half of each direction, $\trace(w^T f_r)$ will be a large negative number. If the object is moving in one of the four cardinal directions, say the $u_+$ direction, there is only $u_+$ flow in any part of the region. Then only flow in the right half will be activated by the positive weights of $u_+$, resulting in a smaller positive activation $\trace(w^T f_r)$. However, it is unclear what the filters should look like in order to successfully classify looming objects from objects in other types of motion, especially if the objects are not centered or exceed the size of one region.
+
+% \subsubsection{Model 2}
+% In the second model, we take a somewhat more realistic approach from the point of view of known neurophysiology for integration of velocity inputs. We model each neuron as being able to apply a nonlinearity to a linear sum of its inputs. Thus, the neurons receive direct excitatory input from all four cardinal directions; this is summed linearly. Inhibitory input to these cells appears to be mediated by LPi neurons \citep{klapoetke2017ultra}, each of which pools velocity information from only one of the four cardinal directions.
+
+% To model this, we first pool $w_-$ for each directional input type, then apply a nonlinearity before summing with the $w_+$. The weights $w_{+} \in \mb{R}^{|\mc{O}| \times 4}$ are constrained to be nonnegative and the weights $w_{-} \in \mb{R}^{|\mc{O}| \times 4}$  are constrained to be nonpositive. We denote these inhibitory neurons as $N$:
+% \begin{align*}
+% 	N_{u+} &= \relu \left((w_{-})_{u+}^T(f_r)_{u+} + b_0 \right), \nonumber \\
+% 	N_{u-} &= \relu \left((w_{-})_{u-}^T(f_r)_{u-} + b_0 \right), \nonumber \\
+% 	N_{v+} &= \relu \left((w_{-})_{v+}^T(f_r)_{v+} + b_0 \right), \nonumber \\
+% 	N_{v-} &= \relu \left((w_{-})_{v-}^T(f_r)_{v-} + b_0 \right). \nonumber
+% \end{align*}
+% These inhibitory signals are pooled and added to the response of the excitatory neuron having positive filter in a given region. The overall response is then
+% \begin{equation}
+% 	\label{eq:model_2}
+% 	y = \sigmoid \left( \sum_{r \in \mc{R}} \left\{ \relu \left( \trace(w_{+}^T f_r) - (N_{u+}+N_{u-}+N_{v+}+N_{v-}) + b_1 \right) \right\} + b_2 \right),
+% \end{equation}
+% where $b_0, b_1, b_2 \in \mathbb{R}$.
+
+\subsection{Training Procedure}
+The synthetic data set contains four types of motions: \emph{loom-and-hit}, \emph{loom-and-miss}, \emph{retreat}, and \emph{rotation}. The proportions of these types are 0.25, 0.125, 0.125, 0.5 respectively. Objects with motion type \emph{loom-and-hit} are labeled as hit (probability of hit is 1), while objects of other motion types are labeled as non-hit (probability of hit is 0). For each trajectory, the model inferred probability of hit is calculated as $\hat{P}_{\text{hit}}=\frac{1}{T}\sum_{t=1}^{T}P_{\text{hit}}(t)$, where $T$ is the total time steps of the trajectory. However, to speed up training, a snapshot is sampled randomly from each trajectory, and the probability of hit of that snapshot is used to be the inferred probability of hit of the whole trajectory, i.e., $\hat{P}_{\text{hit}}=P_{\text{hit}}(t)$, where $t$ is randomly sampled from $\{1,2,\dots,T\}$. However, the whole trajectories are used for testing. The loss function is the cross entropy between the true probability of hit and inferred probability of hit $\hat{P}_{\text{hit}}$. In each of the experiments we have 5200 trajectories, 4,000 for training and 1,200 for testing. Mini-batch gradient descent is used in training. The learning rate is 0.001. L2 Regularization is used to prevent the exploding of the parameters. The regularization strength does not affect the main results in the current paper, but will affect the specific structures of the trained filters, and thus will affect the response curves of the model to certain stimuli. TensorFlow \citep{abadi2016tensorflow} is used to train all models.
+

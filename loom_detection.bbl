@@ -1,0 +1,399 @@
+\begin{thebibliography}{51}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\urlprefix}{}
+\providecommand{\doiprefix}{doi: }
+
+\bibitem[{Abadi et~al.(2016)Abadi, Mart{\'\i}n and Barham, Paul and Chen,
+  Jianmin and Chen, Zhifeng and Davis, Andy and Dean, Jeffrey and Devin,
+  Matthieu and Ghemawat, Sanjay and Irving, Geoffrey and Isard, Michael and
+  others}]{abadi2016tensorflow}
+\textbf{\color{eLifeMediumGrey} Abadi M}, Barham P, Chen J, Chen Z, Davis A,
+  Dean J, Devin M, Ghemawat S, Irving G, Isard M, et~al.
+\newblock Tensorflow: A system for large-scale machine learning.
+\newblock In: \emph{12th $\{$USENIX$\}$ symposium on operating systems design
+  and implementation ($\{$OSDI$\}$ 16)}; 2016. p. 265--283.
+
+\bibitem[{Ache et~al.(2019)Ache, Jan M and Polsky, Jason and Alghailani, Shada
+  and Parekh, Ruchi and Breads, Patrick and Peek, Martin Y and Bock, Davi D and
+  von Reyn, Catherine R and Card, Gwyneth M}]{ache2019neural}
+\textbf{\color{eLifeMediumGrey} Ache JM}, Polsky J, Alghailani S, Parekh R,
+  Breads P, Peek MY, Bock DD, von Reyn CR, Card GM.
+\newblock Neural basis for looming size and velocity encoding in the Drosophila
+  giant fiber escape pathway.
+\newblock Current Biology.  2019; 29(6):1073--1081.
+
+\bibitem[{Adelson and Bergen(1985)Adelson, Edward H and Bergen, James
+  R}]{adelson1985spatiotemporal}
+\textbf{\color{eLifeMediumGrey} Adelson EH}, Bergen JR.
+\newblock Spatiotemporal energy models for the perception of motion.
+\newblock Josa a.  1985; 2(2):284--299.
+
+\bibitem[{Ball and Tronick(1971)Ball, William and Tronick,
+  Edward}]{ball1971infant}
+\textbf{\color{eLifeMediumGrey} Ball W}, Tronick E.
+\newblock Infant responses to impending collision: Optical and real.
+\newblock Science.  1971; 171(3973):818--820.
+
+\bibitem[{Bhattacharyya et~al.(2017)Bhattacharyya, Kiran and McLean, David L
+  and MacIver, Malcolm A}]{bhattacharyya2017visual}
+\textbf{\color{eLifeMediumGrey} Bhattacharyya K}, McLean DL, MacIver MA.
+\newblock Visual threat assessment and reticulospinal encoding of calibrated
+  responses in larval zebrafish.
+\newblock Current Biology.  2017; 27(18):2751--2762.
+
+\bibitem[{Cafaro et~al.(2020)Cafaro, Jon and Zylberberg, Joel and Field, Greg
+  D}]{cafaro2020global}
+\textbf{\color{eLifeMediumGrey} Cafaro J}, Zylberberg J, Field GD.
+\newblock Global motion processing by populations of direction-selective
+  retinal ganglion cells.
+\newblock Journal of Neuroscience.  2020; 40(30):5807--5819.
+
+\bibitem[{Card and Dickinson(2008)Card, Gwyneth and Dickinson, Michael
+  H}]{card2008visually}
+\textbf{\color{eLifeMediumGrey} Card G}, Dickinson MH.
+\newblock Visually mediated motor planning in the escape response of
+  Drosophila.
+\newblock Current Biology.  2008; 18(17):1300--1307.
+
+\bibitem[{Davis and Goadrich(2006)Davis, Jesse and Goadrich,
+  Mark}]{davis2006relationship}
+\textbf{\color{eLifeMediumGrey} Davis J}, Goadrich M.
+\newblock The relationship between Precision-Recall and ROC curves.
+\newblock In: \emph{Proceedings of the 23rd international conference on Machine
+  learning}; 2006. p. 233--240.
+
+\bibitem[{De~Vries and Clandinin(2012)De Vries, Saskia EJ and Clandinin, Thomas
+  R}]{de2012loom}
+\textbf{\color{eLifeMediumGrey} De~Vries SE}, Clandinin TR.
+\newblock Loom-sensitive neurons link computation to action in the Drosophila
+  visual system.
+\newblock Current Biology.  2012; 22(5):353--362.
+
+\bibitem[{DeAngelis et~al.(2019)DeAngelis, Brian D and Zavatone-Veth, Jacob A
+  and Clark, Damon A}]{deangelis2019manifold}
+\textbf{\color{eLifeMediumGrey} DeAngelis BD}, Zavatone-Veth JA, Clark DA.
+\newblock The manifold structure of limb coordination in walking Drosophila.
+\newblock Elife.  2019; 8:e46409.
+
+\bibitem[{Drews et~al.(2020)Drews, Michael S and Leonhardt, Aljoscha and
+  Pirogova, Nadezhda and Richter, Florian G and Schuetzenberger, Anna and
+  Braun, Lukas and Serbe, Etienne and Borst, Alexander}]{drews2020dynamic}
+\textbf{\color{eLifeMediumGrey} Drews MS}, Leonhardt A, Pirogova N, Richter FG,
+  Schuetzenberger A, Braun L, Serbe E, Borst A.
+\newblock Dynamic signal compression for robust motion vision in flies.
+\newblock Current Biology.  2020; 30(2):209--221.
+
+\bibitem[{Dunn et~al.(2016)Dunn, Timothy W and Gebhardt, Christoph and Naumann,
+  Eva A and Riegler, Clemens and Ahrens, Misha B and Engert, Florian and Del
+  Bene, Filippo}]{dunn2016neural}
+\textbf{\color{eLifeMediumGrey} Dunn TW}, Gebhardt C, Naumann EA, Riegler C,
+  Ahrens MB, Engert F, Del~Bene F.
+\newblock Neural circuits underlying visually evoked escapes in larval
+  zebrafish.
+\newblock Neuron.  2016; 89(3):613--628.
+
+\bibitem[{Franke et~al.(2016)Franke, Felix and Fiscella, Michele and Sevelev,
+  Maksim and Roska, Botond and Hierlemann, Andreas and da Silveira, Rava
+  Azeredo}]{franke2016structures}
+\textbf{\color{eLifeMediumGrey} Franke F}, Fiscella M, Sevelev M, Roska B,
+  Hierlemann A, da~Silveira RA.
+\newblock Structures of neural correlation and how they favor coding.
+\newblock Neuron.  2016; 89(2):409--422.
+
+\bibitem[{Gabbiani et~al.(1999)Gabbiani, Fabrizio and Krapp, Holger G and
+  Laurent, Gilles}]{gabbiani1999computation}
+\textbf{\color{eLifeMediumGrey} Gabbiani F}, Krapp HG, Laurent G.
+\newblock Computation of object approach by a wide-field, motion-sensitive
+  neuron.
+\newblock Journal of Neuroscience.  1999; 19(3):1122--1141.
+
+\bibitem[{Georgopoulos et~al.(1986)Georgopoulos, Apostolos P and Schwartz,
+  Andrew B and Kettner, Ronald E}]{georgopoulos1986neuronal}
+\textbf{\color{eLifeMediumGrey} Georgopoulos AP}, Schwartz AB, Kettner RE.
+\newblock Neuronal population coding of movement direction.
+\newblock Science.  1986; 233(4771):1416--1419.
+
+\bibitem[{Glorot et~al.(2011)Glorot, Xavier and Bordes, Antoine and Bengio,
+  Yoshua}]{glorot2011deep}
+\textbf{\color{eLifeMediumGrey} Glorot X}, Bordes A, Bengio Y.
+\newblock Deep sparse rectifier neural networks.
+\newblock In: \emph{Proceedings of the fourteenth international conference on
+  artificial intelligence and statistics} JMLR Workshop and Conference
+  Proceedings; 2011. p. 315--323.
+
+\bibitem[{Hanley and McNeil(1982)Hanley, James A and McNeil, Barbara
+  J}]{hanley1982meaning}
+\textbf{\color{eLifeMediumGrey} Hanley JA}, McNeil BJ.
+\newblock The meaning and use of the area under a receiver operating
+  characteristic (ROC) curve.
+\newblock Radiology.  1982; 143(1):29--36.
+
+\bibitem[{Hassenstein and Reichardt(1956)Hassenstein, Bernhard and Reichardt,
+  Werner}]{hassenstein1956systemtheoretische}
+\textbf{\color{eLifeMediumGrey} Hassenstein B}, Reichardt W.
+\newblock Systemtheoretische analyse der zeit-, reihenfolgen-und
+  vorzeichenauswertung bei der bewegungsperzeption des r{\"u}sselk{\"a}fers
+  chlorophanus.
+\newblock Zeitschrift f{\"u}r Naturforschung B.  1956; 11(9-10):513--524.
+
+\bibitem[{Hervais-Adelman et~al.(2015)Hervais-Adelman, Alexis and Legrand, Lore
+  B and Zhan, Minye and Tamietto, Marco and de Gelder, Beatrice and Pegna, Alan
+  J}]{hervais2015looming}
+\textbf{\color{eLifeMediumGrey} Hervais-Adelman A}, Legrand LB, Zhan M,
+  Tamietto M, de~Gelder B, Pegna AJ.
+\newblock Looming sensitive cortical regions without V1 input: evidence from a
+  patient with bilateral cortical blindness.
+\newblock Frontiers in integrative neuroscience.  2015; 9:51.
+
+\bibitem[{King et~al.(1992)King, Sheila M and Dykeman, Caroline and Redgrave,
+  Peter and Dean, Paul}]{king1992use}
+\textbf{\color{eLifeMediumGrey} King SM}, Dykeman C, Redgrave P, Dean P.
+\newblock Use of a distracting task to obtain defensive head movements to
+  looming visual stimuli by human adults in a laboratory setting.
+\newblock Perception.  1992; 21(2):245--259.
+
+\bibitem[{Klapoetke et~al.(2017)Klapoetke, Nathan C and Nern, Aljoscha and
+  Peek, Martin Y and Rogers, Edward M and Breads, Patrick and Rubin, Gerald M
+  and Reiser, Michael B and Card, Gwyneth M}]{klapoetke2017ultra}
+\textbf{\color{eLifeMediumGrey} Klapoetke NC}, Nern A, Peek MY, Rogers EM,
+  Breads P, Rubin GM, Reiser MB, Card GM.
+\newblock Ultra-selective looming detection from radial motion opponency.
+\newblock Nature.  2017; 551(7679):237--241.
+
+\bibitem[{Liu et~al.(2011)Liu, Yong-Jun and Wang, Qian and Li,
+  Bing}]{liu2011neuronal}
+\textbf{\color{eLifeMediumGrey} Liu YJ}, Wang Q, Li B.
+\newblock Neuronal responses to looming objects in the superior colliculus of
+  the cat.
+\newblock Brain, Behavior and Evolution.  2011; 77(3):193--205.
+
+\bibitem[{Maisak et~al.(2013)Maisak, Matthew S and Haag, Juergen and Ammer,
+  Georg and Serbe, Etienne and Meier, Matthias and Leonhardt, Aljoscha and
+  Schilling, Tabea and Bahl, Armin and Rubin, Gerald M and Nern, Aljoscha and
+  others}]{maisak2013directional}
+\textbf{\color{eLifeMediumGrey} Maisak MS}, Haag J, Ammer G, Serbe E, Meier M,
+  Leonhardt A, Schilling T, Bahl A, Rubin GM, Nern A, et~al.
+\newblock A directional tuning map of Drosophila elementary motion detectors.
+\newblock Nature.  2013; 500(7461):212--216.
+
+\bibitem[{Mauss et~al.(2015)Mauss, Alex S and Pankova, Katarina and Arenz,
+  Alexander and Nern, Aljoscha and Rubin, Gerald M and Borst,
+  Alexander}]{mauss2015neural}
+\textbf{\color{eLifeMediumGrey} Mauss AS}, Pankova K, Arenz A, Nern A, Rubin
+  GM, Borst A.
+\newblock Neural circuit to integrate opposing motions in the visual field.
+\newblock Cell.  2015; 162(2):351--362.
+
+\bibitem[{Morimoto et~al.(2020)Morimoto, Mai M and Nern, Aljoscha and Zhao,
+  Arthur and Rogers, Edward M and Wong, Allan M and Isaacson, Mathew D and
+  Bock, Davi D and Rubin, Gerald M and Reiser, Michael B}]{morimoto2020spatial}
+\textbf{\color{eLifeMediumGrey} Morimoto MM}, Nern A, Zhao A, Rogers EM, Wong
+  AM, Isaacson MD, Bock DD, Rubin GM, Reiser MB.
+\newblock Spatial readout of visual looming in the central brain of Drosophila.
+\newblock Elife.  2020; 9:e57685.
+
+\bibitem[{Muijres et~al.(2014)Muijres, Florian T and Elzinga, Michael J and
+  Melis, Johan M and Dickinson, Michael H}]{muijres2014flies}
+\textbf{\color{eLifeMediumGrey} Muijres FT}, Elzinga MJ, Melis JM, Dickinson
+  MH.
+\newblock Flies evade looming targets by executing rapid visually directed
+  banked turns.
+\newblock Science.  2014; 344(6180):172--177.
+
+\bibitem[{M{\"u}nch et~al.(2009)M{\"u}nch, Thomas A and Da Silveira, Rava
+  Azeredo and Siegert, Sandra and Viney, Tim James and Awatramani, Gautam B and
+  Roska, Botond}]{munch2009approach}
+\textbf{\color{eLifeMediumGrey} M{\"u}nch TA}, Da~Silveira RA, Siegert S, Viney
+  TJ, Awatramani GB, Roska B.
+\newblock Approach sensitivity in the retina processed by a multifunctional
+  neural circuit.
+\newblock Nature neuroscience.  2009; 12(10):1308--1316.
+
+\bibitem[{Oliva and Tomsic(2014)Oliva, Dami{\'a}n and Tomsic,
+  Daniel}]{oliva2014computation}
+\textbf{\color{eLifeMediumGrey} Oliva D}, Tomsic D.
+\newblock Computation of object approach by a system of visual motion-sensitive
+  neurons in the crab Neohelice.
+\newblock Journal of neurophysiology.  2014; 112(6):1477--1490.
+
+\bibitem[{Olshausen and Field(1997)Olshausen, Bruno A and Field, David
+  J}]{olshausen1997sparse}
+\textbf{\color{eLifeMediumGrey} Olshausen BA}, Field DJ.
+\newblock Sparse coding with an overcomplete basis set: A strategy employed by
+  V1?
+\newblock Vision research.  1997; 37(23):3311--3325.
+
+\bibitem[{Pasupathy and Connor(2002)Pasupathy, Anitha and Connor, Charles
+  E}]{pasupathy2002population}
+\textbf{\color{eLifeMediumGrey} Pasupathy A}, Connor CE.
+\newblock Population coding of shape in area V4.
+\newblock Nature neuroscience.  2002; 5(12):1332--1338.
+
+\bibitem[{Regan and Beverley(1978)Regan, D and Beverley, KI}]{regan1978looming}
+\textbf{\color{eLifeMediumGrey} Regan D}, Beverley K.
+\newblock Looming detectors in the human visual pathway.
+\newblock Vision research.  1978; 18(4):415--421.
+
+\bibitem[{Rind and Bramwell(1996)Rind, F Claire and Bramwell,
+  DI}]{rind1996neural}
+\textbf{\color{eLifeMediumGrey} Rind FC}, Bramwell D.
+\newblock Neural network based on the input organization of an identified
+  neuron signaling impending collision.
+\newblock Journal of neurophysiology.  1996; 75(3):967--985.
+
+\bibitem[{Salay et~al.(2018)Salay, Lindsey D and Ishiko, Nao and Huberman,
+  Andrew D}]{salay2018midline}
+\textbf{\color{eLifeMediumGrey} Salay LD}, Ishiko N, Huberman AD.
+\newblock A midline thalamic circuit determines reactions to visual threat.
+\newblock Nature.  2018; 557(7704):183--189.
+
+\bibitem[{Salazar-Gatzimas et~al.(2016)Salazar-Gatzimas, Emilio and Chen, Juyue
+  and Creamer, Matthew S and Mano, Omer and Mandel, Holly B and Matulis,
+  Catherine A and Pottackal, Joseph and Clark, Damon A}]{salazar2016direct}
+\textbf{\color{eLifeMediumGrey} Salazar-Gatzimas E}, Chen J, Creamer MS, Mano
+  O, Mandel HB, Matulis CA, Pottackal J, Clark DA.
+\newblock Direct measurement of correlation responses in Drosophila elementary
+  motion detectors reveals fast timescale tuning.
+\newblock Neuron.  2016; 92(1):227--239.
+
+\bibitem[{Santer et~al.(2005)Santer, Roger D and Simmons, Peter J and Rind, F
+  Claire}]{santer2005gliding}
+\textbf{\color{eLifeMediumGrey} Santer RD}, Simmons PJ, Rind FC.
+\newblock Gliding behaviour elicited by lateral looming stimuli in flying
+  locusts.
+\newblock Journal of Comparative Physiology A.  2005; 191(1):61--73.
+
+\bibitem[{Sato and Yamawaki(2014)Sato, Keiichiro and Yamawaki,
+  Yoshifumi}]{sato2014role}
+\textbf{\color{eLifeMediumGrey} Sato K}, Yamawaki Y.
+\newblock Role of a looming-sensitive neuron in triggering the defense behavior
+  of the praying mantis Tenodera aridifolia.
+\newblock Journal of neurophysiology.  2014; 112(3):671--682.
+
+\bibitem[{Shang et~al.(2015)Shang, Congping and Liu, Zhihui and Chen, Zijun and
+  Shi, Yingchao and Wang, Qian and Liu, Su and Li, Dapeng and Cao,
+  Peng}]{shang2015parvalbumin}
+\textbf{\color{eLifeMediumGrey} Shang C}, Liu Z, Chen Z, Shi Y, Wang Q, Liu S,
+  Li D, Cao P.
+\newblock A parvalbumin-positive excitatory visual pathway to trigger fear
+  responses in mice.
+\newblock Science.  2015; 348(6242):1472--1477.
+
+\bibitem[{Stavenga(2003)Stavenga, DG}]{stavenga2003angular}
+\textbf{\color{eLifeMediumGrey} Stavenga D}.
+\newblock Angular and spectral sensitivity of fly photoreceptors. II.
+  Dependence on facet lens F-number and rhabdomere type in Drosophila.
+\newblock Journal of Comparative Physiology A.  2003; 189(3):189--202.
+
+\bibitem[{Sun and Frost(1998)Sun, Hongjin and Frost, Barrie
+  J}]{sun1998computation}
+\textbf{\color{eLifeMediumGrey} Sun H}, Frost BJ.
+\newblock Computation of different optical variables of looming objects in
+  pigeon nucleus rotundus neurons.
+\newblock Nature neuroscience.  1998; 1(4):296--303.
+
+\bibitem[{Takemura et~al.(2017)Takemura, Shin-ya and Nern, Aljoscha and
+  Chklovskii, Dmitri B and Scheffer, Louis K and Rubin, Gerald M and
+  Meinertzhagen, Ian A}]{takemura2017comprehensive}
+\textbf{\color{eLifeMediumGrey} Takemura Sy}, Nern A, Chklovskii DB, Scheffer
+  LK, Rubin GM, Meinertzhagen IA.
+\newblock The comprehensive connectome of a neural substrate for ‘ON’motion
+  detection in Drosophila.
+\newblock Elife.  2017; 6:e24394.
+
+\bibitem[{Tanaka et~al.(2019)Tanaka, Hidenori and Nayebi, Aran and
+  Maheswaranathan, Niru and McIntosh, Lane and Baccus, Stephen A and Ganguli,
+  Surya}]{tanaka2019deep}
+\textbf{\color{eLifeMediumGrey} Tanaka H}, Nayebi A, Maheswaranathan N,
+  McIntosh L, Baccus SA, Ganguli S.
+\newblock From deep learning to mechanistic understanding in neuroscience: the
+  structure of retinal prediction.
+\newblock arXiv preprint arXiv:191206207.  2019; .
+
+\bibitem[{Temizer et~al.(2015)Temizer, Incinur and Donovan, Joseph C and Baier,
+  Herwig and Semmelhack, Julia L}]{temizer2015visual}
+\textbf{\color{eLifeMediumGrey} Temizer I}, Donovan JC, Baier H, Semmelhack JL.
+\newblock A visual pathway for looming-evoked escape in larval zebrafish.
+\newblock Current Biology.  2015; 25(14):1823--1834.
+
+\bibitem[{Virtanen et~al.(2020)Virtanen, Pauli and Gommers, Ralf and Oliphant,
+  Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and
+  Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright,
+  Jonathan and {van der Walt}, St{\'e}fan J. and Brett, Matthew and Wilson,
+  Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J.
+  and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C J and Polat,
+  {\.I}lhan and Feng, Yu and Moore, Eric W. and {VanderPlas}, Jake and Laxalde,
+  Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and
+  Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro,
+  Ant{\^o}nio H. and Pedregosa, Fabian and {van Mulbregt}, Paul and {SciPy 1.0
+  Contributors}}]{2020SciPy-NMeth}
+\textbf{\color{eLifeMediumGrey} Virtanen P}, Gommers R, Oliphant TE, Haberland
+  M, Reddy T, Cournapeau D, Burovski E, Peterson P, Weckesser W, Bright J, {van
+  der Walt} SJ, Brett M, Wilson J, Millman KJ, Mayorov N, Nelson ARJ, Jones E,
+  Kern R, Larson E, Carey CJ, et~al.
+\newblock {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in
+  Python}.
+\newblock Nature Methods.  2020; 17:261--272.
+\newblock \href{10.1038/s41592-019-0686-2}{\doiprefix
+  \detokenize{10.1038/s41592-019-0686-2}}.
+
+\bibitem[{Vogels(1990)Vogels, Rufin}]{vogels1990population}
+\textbf{\color{eLifeMediumGrey} Vogels R}.
+\newblock Population coding of stimulus orientation by striate cortical cells.
+\newblock Biological cybernetics.  1990; 64(1):25--31.
+
+\bibitem[{Von~Reyn et~al.(2014)Von Reyn, Catherine R and Breads, Patrick and
+  Peek, Martin Y and Zheng, Grace Zhiyu and Williamson, W Ryan and Yee, Alyson
+  L and Leonardo, Anthony and Card, Gwyneth M}]{von2014spike}
+\textbf{\color{eLifeMediumGrey} Von~Reyn CR}, Breads P, Peek MY, Zheng GZ,
+  Williamson WR, Yee AL, Leonardo A, Card GM.
+\newblock A spike-timing mechanism for action selection.
+\newblock Nature neuroscience.  2014; 17(7):962.
+
+\bibitem[{Von~Reyn et~al.(2017)Von Reyn, Catherine R and Nern, Aljoscha and
+  Williamson, W Ryan and Breads, Patrick and Wu, Ming and Namiki, Shigehiro and
+  Card, Gwyneth M}]{von2017feature}
+\textbf{\color{eLifeMediumGrey} Von~Reyn CR}, Nern A, Williamson WR, Breads P,
+  Wu M, Namiki S, Card GM.
+\newblock Feature integration drives probabilistic behavior in the Drosophila
+  escape response.
+\newblock Neuron.  2017; 94(6):1190--1204.
+
+\bibitem[{Wu et~al.(2005)Wu, Le-Qing and Niu, Yu-Qiong and Yang, Jin and Wang,
+  Shu-Rong}]{wu2005tectal}
+\textbf{\color{eLifeMediumGrey} Wu LQ}, Niu YQ, Yang J, Wang SR.
+\newblock Tectal neurons signal impending collision of looming objects in the
+  pigeon.
+\newblock European Journal of Neuroscience.  2005; 22(9):2325--2331.
+
+\bibitem[{Wu et~al.(2016)Wu, Ming and Nern, Aljoscha and Williamson, W Ryan and
+  Morimoto, Mai M and Reiser, Michael B and Card, Gwyneth M and Rubin, Gerald
+  M}]{wu2016visual}
+\textbf{\color{eLifeMediumGrey} Wu M}, Nern A, Williamson WR, Morimoto MM,
+  Reiser MB, Card GM, Rubin GM.
+\newblock Visual projection neurons in the Drosophila lobula link feature
+  detection to distinct behavioral programs.
+\newblock Elife.  2016; 5:e21022.
+
+\bibitem[{Yilmaz and Meister(2013)Yilmaz, Melis and Meister,
+  Markus}]{yilmaz2013rapid}
+\textbf{\color{eLifeMediumGrey} Yilmaz M}, Meister M.
+\newblock Rapid innate defensive responses of mice to looming visual stimuli.
+\newblock Current Biology.  2013; 23(20):2011--2015.
+
+\bibitem[{Zavatone-Veth et~al.(2020)Zavatone-Veth, Jacob A and Badwan, Bara A
+  and Clark, Damon A}]{zavatone2020minimal}
+\textbf{\color{eLifeMediumGrey} Zavatone-Veth JA}, Badwan BA, Clark DA.
+\newblock A minimal synaptic model for direction selective neurons in
+  Drosophila.
+\newblock Journal of vision.  2020; 20(2):2--2.
+
+\bibitem[{Zylberberg et~al.(2016)Zylberberg, Joel and Cafaro, Jon and Turner,
+  Maxwell H and Shea-Brown, Eric and Rieke, Fred}]{zylberberg2016direction}
+\textbf{\color{eLifeMediumGrey} Zylberberg J}, Cafaro J, Turner MH, Shea-Brown
+  E, Rieke F.
+\newblock Direction-selective circuits shape noise to ensure a precise
+  population code.
+\newblock Neuron.  2016; 89(2):369--383.
+
+\end{thebibliography}
